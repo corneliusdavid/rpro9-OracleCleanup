@@ -75,7 +75,7 @@
 						<VersionInfo Name="MajorVer">1</VersionInfo>
 						<VersionInfo Name="MinorVer">0</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">1</VersionInfo>
+						<VersionInfo Name="Build">2</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -87,7 +87,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName">Cornelius Concepts</VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">1.0.0.1</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">1.0.0.2</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName">Oracle Uninstaller Cleanup</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalCopyright">Copyright 2014 by Cornelius Concepts</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks"/>
@@ -95,7 +95,7 @@
 						<VersionInfoKeys Name="ProductName">Oracle Cleanup</VersionInfoKeys>
 						<VersionInfoKeys Name="ProductVersion">1</VersionInfoKeys>
 						<VersionInfoKeys Name="Comments"/>
-						<VersionInfoKeys Name="Last Compile">2015-05-08 05:34</VersionInfoKeys>
+						<VersionInfoKeys Name="Last Compile">2015-05-08 06:20</VersionInfoKeys>
 					</VersionInfoKeys>
 					<Excluded_Packages>
 						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k140.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>

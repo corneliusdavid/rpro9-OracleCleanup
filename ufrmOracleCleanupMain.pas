@@ -126,8 +126,10 @@ procedure TfrmOracleCleanupMain.DeleteOracleFolders;
 var
   folder: string;
 begin
-  if MessageBox(Handle, PChar('Delete Oracle folders under Program Files?'), PChar(Application.Title),
+  if MessageBox(Handle, PChar('Delete Oracle folders, both under C:\ and under Program Files?'), PChar(Application.Title),
                        MB_YESNO + MB_ICONQUESTION + MB_TASKMODAL) = ID_YES then
+
+  DeleteNamedFolder('C:\Oracle');
 
   folder := IncludeTrailingPathDelimiter(GetEnvironmentVariable('ProgramFiles')) + 'Oracle';
   DeleteNamedFolder(folder);
@@ -142,7 +144,7 @@ procedure TfrmOracleCleanupMain.DeleteNamedFolder(folder: string);
 begin
   if TDirectory.Exists(folder) then
   begin
-    TDirectory.Delete(folder);
+    TDirectory.Delete(folder, True);
     Log('Deleted ' + folder);
   end
   else
